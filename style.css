@@ -1,0 +1,9 @@
+h1{
+    color:rgb(15, 171, 233);
+}
+body{
+    margin-left: 10%;
+    border:1px solid black;
+    width: 600px;
+    height: 500px;
+}

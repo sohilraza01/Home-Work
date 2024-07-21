@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Form</title>
+    <style>
+        div{
+            text-align: center;
+            background-image:url(food.webp);
+            background-size: cover;
+            
+            
+            /* margin: 0%; */
+            padding-left: 30%;
+            padding-right: 30%;
+            background-image: url(food.webp);
+        }
+        form{
+            width: 500px;
+            border: .5px solid black;
+            border-radius: 15px;
+            height: 600px;
+            background-color: rgba(254, 192, 192, 0.53);
+
+        }
+        button{
+            border:1px solid black;
+            border-radius: 7px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color:rgb(242, 197, 72)
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Food Ordering Page</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+            <label for="mobile">Mobile No:</label>
+            <select name="+91" id="+91"><option value="+91">+91</option></select>
+            <input type="text" id="mobile" placeholder="123******"><br><br>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" rows="5" placeholder="Enter Your Address"></textarea><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="abc@gmail.com"><br><br>
+            <label for="date">Date of Delivery</label>
+            <input type="date" id="date"><br><br>
+            <label for="time">Time of Delivery</label>
+            <input type="time" id="time"><br><br>
+            <label for="food">Type of Food to be Ordered:</label><br><br>
+            <input type="checkbox" id="food">Daal
+            <input type="checkbox" id="food">Aalu
+            <input type="checkbox"id="food" >Achaar
+            <input type="checkbox"id="food" >dosa
+            <input type="checkbox" id="food">Khichri
+            <input type="checkbox" id="food">Biryaani
+            <input type="checkbox"id="food" >Chaap<br>
+            <input type="checkbox"id="food" >Rajma
+            <input type="checkbox" id="food">Chatni
+            <input type="checkbox" id="food">Dal Makhini <br><br>
+            
+            <!-- <label for="comment">Any Comment:</label> -->
+            <textarea name="comment" id="comment" rows="3" placeholder="Any Comment" style="text-align: center;"></textarea>
+            <br><br>
+            <button id="submit" value="Submit">Submit</button>
+            <button id="reset" value="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
