@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Css</title>
+    <style>
+        body table{
+            /* border:1px solid black; */
+            margin: 100px auto;
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            border-spacing: 0px;
+        }
+        caption{
+            font-size: x-large;
+            padding-bottom: 20px;
+            color: aqua;
+        }
+        tr th{
+            background-color: red;
+            font-size: large;
+        }
+        tr th:first-of-type{
+            border-top-left-radius: 10px;
+            
+        }
+        tr th:last-of-type{
+            border-top-right-radius: 10px;
+        }
+        
+        
+
+        .first td{
+            background-color: blue;
+            text-align: center;
+            font-size: large;
+        }
+         
+        .second td:first-of-type{
+            border-bottom-left-radius: 10px;
+        }
+        .second td:last-of-type{
+            border-bottom-right-radius: 10px;
+        }
+        
+        .second td{
+            background-color: aqua;
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Welcome to Table formatting</caption>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr class="first">
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+        <tr class="second"> 
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
